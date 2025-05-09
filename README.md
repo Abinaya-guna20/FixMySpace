@@ -1,9 +1,9 @@
 
-# FixMySpace.lk
+ FixMySpace.lk
 
 FixMySpace is a full-stack service marketplace web application that connects customers with local professionals such as electricians, plumbers, carpenters, and more.
 
-## 💡 Features
+💡 Features
 
 - Role-based login system for Admin, Customer, and Service Provider
 - Service booking, schedule viewing, and service request handling
@@ -12,15 +12,15 @@ FixMySpace is a full-stack service marketplace web application that connects cus
 - Contact and notification system
 - Privacy policy and terms of service pages
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP
-- **Database:** MySQL
-- **Development Tools:** Visual Studio Code, WAMP Server, phpMyAdmin
-- **Design Tools:** Figma (for wireframes), Trello (for task management)
+- Frontend: HTML, CSS, JavaScript
+- Backend: PHP
+- Database:MySQL
+- Development Tools: Visual Studio Code, WAMP Server, phpMyAdmin
+- Design Tools: Figma (for wireframes), Trello (for task management)
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 FixMySpace/
@@ -51,34 +51,20 @@ FixMySpace/
 └── README.md
 ```
 
-## 📷 Screenshots
 
-Here are a few screenshots from the working application:
 
-- 🔐 Login page  
-- 🏠 Customer home page  
-- 🧰 Service booking interface  
-- 🧑‍🔧 Service provider dashboard  
-- 📊 Admin management panel
-
-_You can upload these in a `/screenshots/` folder or directly on GitHub using the image upload button in edit mode._
-
-## 🧪 Testing
+ 🧪 Testing
 
 The system includes over 40 functional test cases, including login validation, form handling, profile updates, and booking workflows. All major components were manually tested across browsers and screen sizes.
 
-## 🚀 How to Run
+🚀 How to Run
+1. Install WAMP or XAMPP
+2. Import the SQL file
+3. Run the site on `http://localhost/FixMySpace`
 
-1. Install [WAMP Server](https://www.wampserver.com/en/) or XAMPP
-2. Clone or download this repository
-3. Place the project folder in `www/` or `htdocs/`
-4. Start Apache and MySQL
-5. Import the `fixmyspace.sql` database file using phpMyAdmin
-6. Navigate to `http://localhost/FixMySpace` in your browser
+ 👥 Team
+- Abinaya Gunasekaran – Frontend
+- Abdullah Zahran – Project Manager
+- Thisarani Hettiarachchi – Backend
+- Hifdhi Hisham – UI/UX & Testing
 
-## 👨‍👩‍👧‍👦 Team Members
-
-- **Abdullah Zahran** – Project Manager & Content Lead  
-- **Abinaya Gunasekaran** – Frontend Developer  
-- **Thisarani Hettiarachchi** – Backend Developer  
-- **Hifdhi Hisham** – UI/UX Designer & QA Tester
